@@ -228,7 +228,7 @@ node ../scripts/init_contracts.js
 ## 🔒 Security & Privacy Considerations
 
 - **Real Extension Auth**: No private keys or secret seeds are ever handled, stored, or exposed on the application client. Transactions are signed strictly inside the user's isolated Freighter browser extension or Albedo web sandbox.
-- **Role-Based Access Control (RBAC)**: Only the authorized `ShikkhakCore` contract address can invoke `mint_reward` on `ShikkhakToken`.
+- **Role-Based Access Control (RBAC)**: Only the authorized `ShikkhakCore` contract address is granted minter privileges to invoke `mint_reward` on `ShikkhakToken`, preventing arbitrary minting.
 - **Anti-Cheat Replay Protection**: Each module completion requires a unique proof hash and anti-replay nonce.
 - **Checked Arithmetic**: All token arithmetic uses `checked_add` and `checked_sub` to eliminate overflow/underflow vulnerabilities.
 - **Declarative Auth**: Uses native Soroban `require_auth()` avoiding re-entrancy risks.

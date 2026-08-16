@@ -143,7 +143,7 @@ sequenceDiagram
    - Starts disconnected by default on initial page load (eliminating pre-connected random addresses).
    - Real-time extension status badges ("Detected", "Web Signer", "Sandbox").
    - Direct installation assistance and browser extension download links.
-   - Live native XLM and SKK token balance fetching directly from Stellar Horizon nodes.
+   - Live native XLM and SKK token balance fetching directly from Stellar Horizon nodes (automatically parsing native assets and SKK trustlines).
 2. **AI Diagnostic & Personalization Engine**:
    - Classifies learners into Foundation (1), Intermediate (2), and Advanced (3).
    - Dynamically reorders upcoming modules and skips mastered topics.

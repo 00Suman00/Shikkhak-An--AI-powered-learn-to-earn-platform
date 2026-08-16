@@ -14,12 +14,12 @@ interface WalletStoreState extends WalletState {
 const DEFAULT_DEMO_ADDRESS = "GA3D5K7R6P4K3T6A7U3M8Q2V4W9E1R5T7Y0U2I4O6P8A9S1D3F5G7H";
 
 export const useWalletStore = create<WalletStoreState>((set) => ({
-  isConnected: true, // Default connected to demo wallet for instant friction-free testing
-  address: DEFAULT_DEMO_ADDRESS,
-  walletType: "demo_keypair",
-  balanceSKK: 450,
-  stakedSKK: 100,
-  balanceXLM: 9942.5,
+  isConnected: false,
+  address: null,
+  walletType: null,
+  balanceSKK: 0,
+  stakedSKK: 0,
+  balanceXLM: 0,
   network: "testnet",
   isConnecting: false,
   error: null,

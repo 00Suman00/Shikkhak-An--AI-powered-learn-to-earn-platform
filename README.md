@@ -25,7 +25,7 @@ Shikkhak combines **AI personalization** with **Stellar Soroban smart contracts*
 - 🧠 **Diagnostic Profiler**: Evaluates foundational knowledge and curates custom module paths.
 - ⚡ **Dynamic AI Assessments**: Synthesizes unique quiz questions with anti-memorization stems.
 - 🛡️ **Anti-Cheat Telemetry**: Scores learner response pace, clipboard events, and window focus to prevent cheating.
-- 🦊 **Real Web3 Wallet Connectivity**: Authenticates actual user accounts via **Freighter**, **Albedo**, and **xBull** signers.
+- 🦊 **Real Web3 Wallet Connectivity**: Authenticates actual user accounts via **Freighter**, **Albedo**, and **xBull** browser extension signers.
 - 🪙 **Inter-Contract Token Rewards**: Genuine progress triggers `ShikkhakCore` to call `ShikkhakToken`, minting verified SKK tokens.
 - 📜 **Tamper-Proof On-Chain Credentials**: Cryptographic proof hashes stored permanently in Stellar Persistent storage.
 

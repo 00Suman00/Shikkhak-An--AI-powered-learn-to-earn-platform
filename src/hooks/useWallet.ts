@@ -27,8 +27,22 @@ export function useWallet() {
   const connect = async (selectedWalletType: WalletType) => {
     setConnecting(true);
     try {
+      if (selectedWalletType === "demo_keypair") {
+        connectDemoWallet();
+        return;
+      }
+
       const pubKey = await stellarWalletService.connect(selectedWalletType);
       setConnected(pubKey, selectedWalletType);
+
+      // Fetch real account balance from Stellar Horizon network
+      try {
+        const balances = await stellarWalletService.fetchAccountBalance(pubKey, network);
+        setBalances(balances.balanceSKK, 0, balances.balanceXLM);
+      } catch {
+        // Fallback default balances
+        setBalances(100, 0, 100);
+      }
     } catch (err: any) {
       setError(err.message || "Failed to connect Stellar wallet");
     }

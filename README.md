@@ -101,10 +101,10 @@ sequenceDiagram
     Learner->>UI: Click "Connect Wallet"
     UI->>Wallet: Trigger requestAccess() / publicKey()
     Wallet-->>Learner: Browser Extension / Web Authorization Prompt
-    Learner->>Wallet: Approve Connection
+    Learner->>Wallet: Approve Connection & Select Account
     Wallet-->>UI: Return Verified Public Key (G...)
     UI->>Horizon: Query /accounts/{address} (Balances & Sequence)
-    Horizon-->>UI: Live XLM & SKK Token Balances
+    Horizon-->>UI: Live Native XLM & SKK Token Balances
     
     Learner->>UI: Completes Module Assessment
     UI->>AI: Send Answer Telemetry & Timing Metrics

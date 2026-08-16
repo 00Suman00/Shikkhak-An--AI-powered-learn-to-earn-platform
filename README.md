@@ -247,6 +247,14 @@ node ../scripts/init_contracts.js
 
 ---
 
+## ❓ Troubleshooting & Extension Guidance
+
+- **Freighter Extension Not Detected**: Ensure the [Freighter Extension](https://www.freighter.app) is unlocked in your browser and refresh the page.
+- **Unfunded Account on Testnet**: New testnet accounts can be funded using the Stellar Friendbot at [laboratory.stellar.org](https://laboratory.stellar.org/#account-creator).
+- **Albedo Web Signer Popup Blocked**: Allow popups for `albedo.link` in your browser settings if opening the signer modal is prevented.
+
+---
+
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for details.

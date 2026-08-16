@@ -203,7 +203,7 @@ The test suite validates:
 - Real `stellarWalletService` wallet provider detection and `requestAccess` flow.
 - Exception handling for missing extensions and user declines.
 - AI diagnostic, quiz generator, and anti-cheat fraud telemetry scoring.
-- Complete end-to-end learn-to-earn protocol loop.
+- Complete end-to-end learn-to-earn protocol loop across 16 Vitest unit & integration tests.
 
 ---
 

@@ -212,11 +212,11 @@ The test suite validates:
 ## 🌐 Deploying to Stellar Testnet
 
 ```bash
-# 1. Build WASM contract binaries
+# 1. Build WASM contract binaries (release build)
 cd contracts
 cargo build --target wasm32-unknown-unknown --release
 
-# 2. Deploy contracts via script
+# 2. Deploy contracts via deployment script to Testnet
 node ../scripts/deploy_testnet.js
 
 # 3. Initialize contracts and cross-contract authorizations

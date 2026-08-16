@@ -150,8 +150,8 @@ sequenceDiagram
 3. **Dynamic Anti-Memorization Quizzes**:
    - Generates randomized question stems with varied distractors.
 4. **Anti-Cheat Fraud Telemetry**:
-   - Monitored live vectors: question pace latency, clipboard activity, window focus blur.
-   - Blocks automated scripts and rapid guessers from gaming token rewards.
+   - Monitored live vectors: question pace latency, clipboard paste activity, and window focus blur.
+   - Blocks automated scripts and rapid guessers from gaming token rewards before invoking Soroban contracts.
 5. **Context-Aware AI Tutor (Mentor)**:
    - Sidebar chat tutor with real-time awareness of active course lesson code and sticking points.
 6. **Real-Time Live Event Streamer**:

@@ -46,7 +46,7 @@ graph TB
         Freighter[Freighter Browser Extension]
         Albedo[Albedo Web Signer]
         xBull[xBull Extension]
-        Horizon[Stellar Testnet Horizon RPC API]
+        Horizon[Stellar Testnet Horizon RPC API Node]
     end
 
     subgraph "AI Intelligence Layer"

@@ -233,6 +233,18 @@ node ../scripts/init_contracts.js
 
 ---
 
+## 🖼️ User Interface & Experience
+
+- **Landing Page**: Value proposition, protocol metrics, interactive curriculum previews.
+- **Stellar Multi-Wallet Connector**: Interactive modal displaying live Freighter extension detection, Albedo web signer, xBull, and sandbox keypair options.
+- **Dashboard**: Personalized learning path, diagnostic level badges, active module progress.
+- **Learn Workspace**: Lesson markdown, live AI cheat monitor, dynamic quiz questions, AI mentor sidekick.
+- **Live Feed**: Real-time streaming on-chain activity feed.
+- **Transaction Center**: Full lifecycle status tracking with Stellar Expert explorer links.
+- **Credentials**: On-chain verifiable tamper-proof certificates with QR & cryptographic hash verification.
+
+---
+
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for details.

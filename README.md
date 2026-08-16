@@ -189,7 +189,7 @@ cp .env.example .env.local
 # 3. Run development server
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser and click **Connect Wallet** to select your Freighter or Albedo account.
+Open [http://localhost:3000](http://localhost:3000) in your browser and click **Connect Wallet** to select your actual Freighter extension or Albedo account.
 
 ---
 

@@ -138,10 +138,10 @@ sequenceDiagram
 
 1. **Real Web3 Wallet Integration**:
    - Native support for **Freighter Browser Extension**, **Albedo Web Signer**, and **xBull**.
-   - Disconnected by default on initial page load (no pre-connected random addresses).
+   - Starts disconnected by default on initial page load (eliminating pre-connected random addresses).
    - Real-time extension status badges ("Detected", "Web Signer", "Sandbox").
-   - Direct installation assistance and links for missing browser extensions.
-   - Live native XLM and SKK token balance fetching from Stellar Horizon.
+   - Direct installation assistance and browser extension download links.
+   - Live native XLM and SKK token balance fetching directly from Stellar Horizon nodes.
 2. **AI Diagnostic & Personalization Engine**:
    - Classifies learners into Foundation (1), Intermediate (2), and Advanced (3).
    - Dynamically reorders upcoming modules and skips mastered topics.

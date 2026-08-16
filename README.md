@@ -4,6 +4,7 @@
 [![Soroban Contracts](https://img.shields.io/badge/Smart%20Contracts-Rust%20%2F%20WASM-orange?style=for-the-badge&logo=rust)](https://soroban.stellar.org)
 [![Next.js 15](https://img.shields.io/badge/Frontend-Next.js%2015%20App%20Router-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![Freighter Compatible](https://img.shields.io/badge/Stellar-Freighter%20%26%20Albedo%20Web3-green?style=for-the-badge&logo=stellar)](https://freighter.app)
+[![Release v1.1.0](https://img.shields.io/badge/Release-v1.1.0-blue?style=for-the-badge)](https://github.com/00Suman00/Shikkhak-An--AI-powered-learn-to-earn-platform/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 > **Shikkhak** (শিক্ষক — "Teacher") is a next-generation decentralized Learn-to-Earn platform built on Stellar Soroban. It replaces static videos and easily falsified certificates with **AI curriculum personalization**, **dynamic anti-memorization quizzes**, **real-time anti-cheat telemetry detection**, **real Web3 wallet integration (Freighter, Albedo, xBull)**, and **provable on-chain token rewards & credentials**.

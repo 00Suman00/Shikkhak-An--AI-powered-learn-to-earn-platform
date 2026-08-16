@@ -63,7 +63,7 @@ graph TB
 
     subgraph "Soroban Smart Contracts (Stellar Ledger)"
         CoreContract["shikkhak_core Contract<br/>• Student Registry<br/>• Path Verification<br/>• Credential Proofs<br/>• Fraud Attestation"]
-        TokenContract["shikkhak_token Contract (SKK)<br/>• SEP-41 Token Standard<br/>• Staking Locks<br/>• Dynamic Reward Minting<br/>• RBAC & Slashing"]
+        TokenContract["shikkhak_token Contract (SKK)<br/>• SEP-41 Token Standard<br/>• Staking Locks<br/>• Dynamic Reward Minting<br/>• RBAC Minter Security"]
     end
 
     UI --> SWK

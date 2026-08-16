@@ -132,6 +132,8 @@ sequenceDiagram
 | **`shikkhak_core`** | Stellar Testnet | `CCCORE9SHIKKHAK7VXZYTESTNETLEARNTOEARNPRODCONTRACT1` | [View Core Contract](https://stellar.expert/explorer/testnet/contract/CCCORE9SHIKKHAK7VXZYTESTNETLEARNTOEARNPRODCONTRACT1) |
 | **`shikkhak_token` (SKK)** | Stellar Testnet | `CCTOKEN9SHIKKHAK7VXZYTESTNETLEARNTOEARNPRODCONTRACT2` | [View Token Contract](https://stellar.expert/explorer/testnet/contract/CCTOKEN9SHIKKHAK7VXZYTESTNETLEARNTOEARNPRODCONTRACT2) |
 
+> **Stellar Horizon Testnet Node**: `https://horizon-testnet.stellar.org`
+
 ---
 
 ## ✨ Key Features

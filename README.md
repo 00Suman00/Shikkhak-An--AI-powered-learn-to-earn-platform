@@ -166,7 +166,7 @@ sequenceDiagram
 - **Styling**: TailwindCSS, Glassmorphism, Custom Theme Tokens
 - **State Management**: Zustand 5.0, TanStack React Query
 - **Stellar Web3 Signers**: `@stellar/freighter-api`, `@albedo-link/intent`, `@stellar/stellar-sdk`
-- **Testing**: Vitest, React Testing Library, Soroban Testutils
+- **Testing**: Vitest 3.2, React Testing Library, Soroban Testutils
 
 ---
 
